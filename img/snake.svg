@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 100 100">
+    <!-- Snake Head Shape -->
+    <ellipse cx="50" cy="50" rx="40" ry="35" fill="#1B5E20" stroke="#0D3D1E" stroke-width="3"/>
+    
+    <!-- Eyes -->
+    <circle cx="35" cy="35" r="5" fill="black"/>
+    <circle cx="65" cy="35" r="5" fill="black"/>
+    
+    <!-- Slit Pupils -->
+    <line x1="35" y1="31" x2="35" y2="39" stroke="white" stroke-width="1"/>
+    <line x1="65" y1="31" x2="65" y2="39" stroke="white" stroke-width="1"/>
+    
+    <!-- Forked Tongue -->
+    <path d="M 50 70 Q 52 80, 47 90 Q 50 87, 53 90 Q 48 80, 50 70 Z" fill="red" stroke="black" stroke-width="1"/>
+</svg>
